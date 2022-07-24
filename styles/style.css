@@ -26,13 +26,13 @@ body {
   margin: 0 0 40px 0;
   text-align: center;
   color: white;
-  padding: 47px 150px 0 150px;
 }
 
 h1 {
   font-size: 72px;
   font-weight: bold;
   text-align: center;
+  padding: 47px 150px 0 150px;
 }
 
 h2 {
@@ -92,6 +92,7 @@ footer {
     font-size: 40px;
     padding: 10px 15px 0 15px;
   }
+
   h2 {
     font-size: 18px;
     padding: 0 15px 10px 15px;
