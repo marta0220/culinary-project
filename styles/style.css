@@ -1,0 +1,38 @@
+body {
+  font-family: "Nunito";
+}
+.navbar {
+  margin: 20px 60px;
+  background-color: transparent !important;
+}
+
+.navbar-nav {
+  font-weight: bold;
+  color: #272142;
+  font-size: 16px;
+}
+#home {
+  color: darkviolet;
+}
+.hero {
+  background-image: url(/img/homepage/hero-background.png);
+  background-size: cover;
+  margin: 0;
+  text-align: center;
+  color: white;
+  width: auto;
+  align-content: top;
+}
+
+h1 {
+  font-size: 72px;
+  font-weight: bold;
+  padding: 47px 150px 0px 150px;
+}
+h2 {
+  font-size: 24px;
+  font-weight: bold;
+  padding-bottom: 30px;
+  margin: 0 350px;
+  padding-bottom: 46px;
+}
