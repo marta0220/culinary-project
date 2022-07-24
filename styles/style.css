@@ -53,3 +53,47 @@ footer {
   padding: 40px 140px;
   margin-top: 100px;
 }
+@media (max-width: 800px) {
+  body {
+    text-align: center;
+  }
+  .navbar {
+    margin: 0;
+  }
+  .navbar-brand {
+    width: 70%;
+    text-align: left;
+  }
+  .hero {
+    background-image: url(/img/homepage/hero-background.png);
+    background-size: cover;
+    margin-bottom: 0;
+  }
+
+  h1 {
+    font-size: 40px;
+    padding: 10px 15px 0 15px;
+  }
+  h2 {
+    font-size: 18px;
+    padding: 0 15px 10px 15px;
+  }
+  h1,
+  h2 {
+    margin: 0;
+  }
+  p {
+    font-size: 20px;
+  }
+  footer {
+    font-size: 10px;
+    padding: 5px;
+  }
+  footer .footer-logo {
+    width: 50%;
+  }
+  #footer-logo {
+    width: 50%;
+    padding: 0;
+  }
+}
