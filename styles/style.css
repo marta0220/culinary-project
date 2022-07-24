@@ -1,44 +1,47 @@
+:root {
+  --default-text-color: #272142;
+  --accent-color: darkviolet;
+  --step-color: #f65282;
+  --background-color: #f9f7fe;
+}
 body {
   font-family: "Nunito";
+  color: var(--default-text-color);
 }
 .navbar {
   margin: 20px 60px;
   background-color: transparent !important;
 }
-
+#active-link {
+  color: var(--accent-color);
+}
 .navbar-nav {
   font-weight: bold;
-  color: #272142;
   font-size: 16px;
 }
-#home {
-  color: darkviolet;
-}
+
 .hero {
   background-image: url(/img/homepage/hero-background.png);
   background-size: cover;
   margin: 0 0 40px 0;
   text-align: center;
   color: white;
-  width: auto;
 }
 
 h1 {
   font-size: 72px;
   font-weight: bold;
-  padding: 47px 150px 0px 150px;
+  padding: 47px 150px 0 150px;
 }
 h2 {
   font-size: 24px;
   font-weight: bold;
-  padding-bottom: 30px;
   margin: 0 350px;
   padding-bottom: 46px;
 }
 p {
   font-size: 28px;
   font-weight: bold;
-  color: #272142;
 }
 
 .recepies {
@@ -46,13 +49,12 @@ p {
   border: none;
 }
 footer {
-  color: #272142;
   font-size: 16px;
-  font-weight: normal;
-  background-color: #f9f7fe;
+  background-color: var(--background-color);
   padding: 40px 140px;
   margin-top: 100px;
 }
+
 @media (max-width: 800px) {
   body {
     text-align: center;
