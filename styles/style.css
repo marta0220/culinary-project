@@ -1,6 +1,6 @@
 :root {
   --default-text-color: #272142;
-  --accent-color: darkviolet;
+  --accent-color: #662eed;
   --step-color: #f65282;
   --background-color: #f9f7fe;
 }
@@ -31,6 +31,8 @@ body {
 h1 {
   font-size: 72px;
   font-weight: bold;
+}
+h1 .homepage {
   padding: 47px 150px 0 150px;
 }
 h2 {
@@ -39,9 +41,23 @@ h2 {
   margin: 0 350px;
   padding-bottom: 46px;
 }
+.about-section h2 {
+  margin: 0;
+}
+ul {
+  list-style-type: none;
+}
 p {
   font-size: 28px;
   font-weight: bold;
+}
+.contact-recources {
+  color: var(--accent-color);
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 10px;
+  margin-top: 15px;
 }
 
 .recepies {
