@@ -17,11 +17,10 @@ body {
 .hero {
   background-image: url(/img/homepage/hero-background.png);
   background-size: cover;
-  margin: 0;
+  margin: 0 0 40px 0;
   text-align: center;
   color: white;
   width: auto;
-  align-content: top;
 }
 
 h1 {
@@ -35,4 +34,22 @@ h2 {
   padding-bottom: 30px;
   margin: 0 350px;
   padding-bottom: 46px;
+}
+p {
+  font-size: 28px;
+  font-weight: bold;
+  color: #272142;
+}
+
+.recepies {
+  margin-top: 30px;
+  border: none;
+}
+footer {
+  color: #272142;
+  font-size: 16px;
+  font-weight: normal;
+  background-color: #f9f7fe;
+  padding: 40px 140px;
+  margin-top: 100px;
 }
