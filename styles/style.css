@@ -4,6 +4,7 @@
   --step-color: #f65282;
   --background-color: #f9f7fe;
 }
+
 body {
   font-family: "Nunito";
   color: var(--default-text-color);
@@ -12,11 +13,16 @@ body {
   margin: 20px 60px;
   background-color: transparent !important;
 }
-#active-link {
-  color: var(--accent-color);
+#active-link,
+a:hover {
+  color: var(--accent-color) !important;
+  text-decoration: underline;
 }
+a {
+  color: var(--default-text-color);
+}
+
 .navbar-nav {
-  font-weight: bold;
   font-size: 16px;
 }
 
@@ -27,10 +33,16 @@ body {
   text-align: center;
   color: white;
 }
-
+.navbar-nav,
+.contact-recources,
+h1,
+h2,
+h3,
+p {
+  font-weight: bold;
+}
 h1 {
   font-size: 72px;
-  font-weight: bold;
   text-align: center;
 }
 .hero h1 {
@@ -38,12 +50,10 @@ h1 {
 }
 h2 {
   font-size: 36px;
-  font-weight: bold;
 }
 
 h3 {
   font-size: 24px;
-  font-weight: bold;
 }
 .hero h3 {
   margin: 0 350px;
@@ -55,7 +65,6 @@ ul {
 }
 p {
   font-size: 28px;
-  font-weight: bold;
 }
 
 .card {
@@ -79,14 +88,11 @@ p {
   color: var(--accent-color);
   text-transform: uppercase;
   font-size: 18px;
-  font-weight: bold;
+
   padding: 10px;
   margin-top: 15px;
 }
-a:hover {
-  color: var(--accent-color) !important;
-  text-decoration: underline;
-}
+
 footer {
   font-size: 16px;
   background-color: var(--background-color);
@@ -133,11 +139,15 @@ footer {
     padding: 0 15px 10px 15px;
   }
   h1,
-  h2 h3 {
+  h2,
+  h3 {
     margin: 0;
   }
   p {
     font-size: 20px;
+  }
+  .container {
+    padding: 20px !important;
   }
   .recipe-content {
     font-size: 20px;
