@@ -83,6 +83,10 @@ p {
   padding: 10px;
   margin-top: 15px;
 }
+a:hover {
+  color: var(--accent-color) !important;
+  text-decoration: underline;
+}
 footer {
   font-size: 16px;
   background-color: var(--background-color);
